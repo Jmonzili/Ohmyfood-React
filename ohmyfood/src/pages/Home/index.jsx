@@ -1,8 +1,10 @@
-import Header from "../../components/Header";
+// import styled from 'styled-components'
 
 function Home() {
   return (
-    <Header />
+    <main>
+      <h1>Menu</h1>
+    </main>
   );
 }
 
