@@ -3,7 +3,6 @@ import colors from '../../../utils/style/colors'
 
 const FormContainer = styled.form`
     width: 100%
-    display: flex;
 `
 const Localisation = styled.div`
     width: 100%;
