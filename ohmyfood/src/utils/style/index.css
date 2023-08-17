@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+*{
+    box-sizing: border-box;
+}
 
 body {
-    box-sizing: border-box;
+    
     width: 100%;
     height: auto;
     font-family: Roboto;
-    font-weight: 500;
+    font-weight: 300;
+    margin: 0;
 }
 
 /* 
