@@ -1,8 +1,8 @@
 function Menu() {
     return (
-        <div>
+        <main>
             <h1>Menu</h1>
-        </div>
+        </main>
     )
 }
 

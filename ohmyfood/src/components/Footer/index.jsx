@@ -4,9 +4,13 @@ import { styled } from "styled-components"
 const FooterContainer = styled.footer`
     background-color: black;
     color: white;
-    width: 100%;
-    padding: 0 2rem 1rem 2rem;
+    padding: 0.1rem 2rem 1rem 2rem;
     position: relative;
+`
+
+const FooterTitle = styled.p`
+    font-family: Shrikhand;
+    font-size: 20px;
 `
 
 const ListUl = styled.ul`
@@ -16,12 +20,12 @@ const ListUl = styled.ul`
 
 const StyledLi = styled.li`
     margin: 0.8rem 0;
-    font-weight: 500;
 `
 
 const StyledLink = styled(Link)`
     color: white;
     text-decoration: none;
+    font-weight: 500;
     &:visited {
         color: white;
     }
@@ -30,10 +34,26 @@ const StyledLink = styled(Link)`
 function Footer() {
     return(
         <FooterContainer>
+            <FooterTitle>ohmyfood</FooterTitle>
             <ListUl>
                 <StyledLi>
                     <StyledLink>
+                        <i className="fas fa-utensils"></i> Proposer un restaurant
+                    </StyledLink>
+                </StyledLi>
+                <StyledLi>
+                    <StyledLink>
+                        <i className="fas fa-hands-helping"></i> Devenir partenaire
+                    </StyledLink>
+                </StyledLi>
+                <StyledLi>
+                    <StyledLink>
                         Mentions légales
+                    </StyledLink>
+                </StyledLi>
+                <StyledLi>
+                    <StyledLink to={"mailto:omhcontact@ohmyfood.com"}>
+                        Contact
                     </StyledLink>
                 </StyledLi>
             </ListUl>
