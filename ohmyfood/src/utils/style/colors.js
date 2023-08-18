@@ -8,8 +8,8 @@ const colors = {
   greyLight: '#F2F2F2',
   primaryHover: '#f5eefd',
   secondaryHover: '#f8e4f2',
-  btnStyled: 'linear-gradient(180deg, #FF79DA, #9356DC)',
-  heartStyled: 'linear-gradient(90deg, #FF79DA, #9356DC)',
+  button: 'linear-gradient(180deg, #FF79DA, #9356DC)',
+  heart: 'linear-gradient(90deg, #FF79DA, #9356DC)',
 }
 
 export default colors
