@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import colors from '../../utils/style/colors'
+import Arrow from './Arrow'
 
 const HeaderContainer = styled.header`
     display: flex;
@@ -18,14 +19,16 @@ const Logo = styled.h1`
     font-weight: 300;
 `
 
-function Header() {
+function Header(props) {
+    const {arrowShow} = props;
     return (
         <HeaderContainer>
+            {arrowShow &&
+                <Link to='/'>
+                    <Arrow />
+                </Link>
+            }
             <Logo>Ohmyfood</Logo>
-            <nav>
-                <Link to="/">Accueil</Link>
-                <Link to="/menu">Menu</Link>
-            </nav>
         </HeaderContainer>
         
     )
