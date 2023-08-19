@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import colors from '../../../utils/style/colors'
 import Heart from '../../Reussable/Heart'
+import StickerNew from './StickerNew'
 
 const CardWrapper = styled.div`
 border: 0 solid;
@@ -38,11 +39,12 @@ const CardTitle =styled.p`
 font-weight: 500;
 `
 
-function Card({ id, picture, street, name }) {
+function Card({ picture, street, name, isNew }) {
     return (
         <CardWrapper>
             <CardCover>
                 <CardPicture src={picture} alt={name} />
+                {isNew && <StickerNew />}
             </CardCover>
             <CardDescription>
                 <div>

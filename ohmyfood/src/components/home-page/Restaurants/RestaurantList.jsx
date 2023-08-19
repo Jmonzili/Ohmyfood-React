@@ -1,5 +1,5 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-// import { Link } from 'react-router-dom'
 import { restaurantsList } from '../../../datas/restaurantsList'
 import Card from './Card'
 
@@ -13,13 +13,16 @@ align-items: center;
 function RestaurantsList() {
     return (
         <List>
-            {restaurantsList.map(({ id, picture, street, name}) => (
-                <Card
-                    id={id}
-                    picture={picture}
-                    street={street}
-                    name={name}
-                />
+            {restaurantsList.map(({ id, picture, street, name, isNew}) => (
+                <Link key={id} to={`/menu/${id}`}>
+                    <Card
+                        id={id}
+                        picture={picture}
+                        street={street}
+                        name={name}
+                        isNew={isNew}
+                    />
+                </Link>
             ))}
         </List>
     )

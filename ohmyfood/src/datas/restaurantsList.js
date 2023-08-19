@@ -9,14 +9,14 @@ export const restaurantsList = [
     name: 'La palette du goût',
     picture: laPaletteCover,
     street: 'Ménilmontant',
-    isNew: false,
+    isNew: true,
   },
   {
     id: 2,
     name: 'La note enchantée',
     picture: laNoteCover,
     street: 'Charonne',
-    isNew: false,
+    isNew: true,
   },
   {
     id: 3,
