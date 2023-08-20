@@ -1,0 +1,72 @@
+export const menusList = [
+  {
+    restaurantName: 'La palette du goût',
+    id: 1,
+    img: './imgs/la_palette_du_gout.jpg',
+    menus: [
+      {
+        type: 'entrées',
+        order: 1,
+        name: "Fricassée d'escargot",
+        subtitle: "Au piment d'Espelette",
+        price: 2500,
+      },
+      {
+        type: 'entrées',
+        order: 2,
+        name: 'Foie gras de canard mi-cuit',
+        subtitle: 'Et ses copeaux de truffe noire',
+        price: 3500,
+      },
+      {
+        type: 'entrées',
+        order: 3,
+        name: 'Oeuf au plat',
+        subtitle: 'Assaisonné à la truffe sur lit de caviar',
+        price: 2000,
+      },
+      {
+        type: 'plats',
+        order: 1,
+        name: 'Filet de boeuf aux herbes',
+        subtitle: 'Accompagné de sa ribambelle de légumes',
+        price: 4000,
+      },
+      {
+        type: 'plats',
+        order: 2,
+        name: 'Parmentier de queue de boeuf',
+        subtitle: 'À la truffe noire sur sa purée de panais',
+        price: 3500,
+      },
+      {
+        type: 'plats',
+        order: 3,
+        name: 'Filet de turbot',
+        subtitle: 'Aux agrumes',
+        price: 4400,
+      },
+      {
+        type: 'desserts',
+        order: 1,
+        name: 'Paris-Brest',
+        subtitle: 'Revisité',
+        price: 1800,
+      },
+      {
+        type: 'desserts',
+        order: 2,
+        name: "Macaron au chocolat d'exception ",
+        subtitle: 'Et glace à la vanille de Madagascar',
+        price: 2200,
+      },
+      {
+        type: 'desserts',
+        order: 3,
+        name: 'Mousse au chocolat',
+        subtitle: "Au piment d'Espelette et à la truffe noire",
+        price: 2300,
+      },
+    ],
+  },
+]
