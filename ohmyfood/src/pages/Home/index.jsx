@@ -1,11 +1,9 @@
-// import styled from 'styled-components'
-
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import Form from "../../components/home-page/Form";
-import Navigation from "../../components/home-page/Navigation";
-import Restaurants from "../../components/home-page/Restaurants";
-import Slogant from "../../components/home-page/Slogant";
+import Form from "../../components/page-home/Form";
+import Navigation from "../../components/page-home/Navigation";
+import Restaurants from "../../components/page-home/Restaurants";
+import Slogant from "../../components/page-home/Slogant";
 
 
 function Home() {

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 import colors from '../../../utils/style/colors'
 import Heart from '../../Reussable/Heart'
 import StickerNew from './StickerNew'
@@ -55,6 +56,20 @@ function Card({ picture, street, name, isNew }) {
             </CardDescription>
         </CardWrapper>
     )
+}
+
+Card.propTypes = {
+    name: PropTypes.string.isRequired,
+    street: PropTypes.string.isRequired,
+    picture: PropTypes.string.isRequired,
+    isNew: PropTypes.bool.isRequired
+}
+
+Card.defaultProps = {
+    name: '',
+    street: '',
+    picture: '',
+    isNew: false
 }
 
 export default Card

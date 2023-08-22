@@ -8,7 +8,7 @@ export const menusList = [
     restaurantName: 'La palette du goût',
     id: 1,
     cover: laPaletteCover,
-    menus: [
+    menu: [
       {
         type: 'entrées',
         order: 1,
@@ -78,7 +78,7 @@ export const menusList = [
     restaurantName: 'La note enchantée',
     id: 2,
     cover: laNoteCover,
-    menus: [
+    menu: [
       {
         type: 'entrées',
         order: 1,
@@ -99,6 +99,13 @@ export const menusList = [
         name: 'Homard et espuma de potiron',
         subtitle: "Mariné aux zestes d'orange",
         price: 2000,
+      },
+      {
+        type: 'entrées',
+        order: 4,
+        name: 'Foie gras de canard cuit entier',
+        subtitle: 'Confiture de figue et pain toasté',
+        price: 3500,
       },
       {
         type: 'plats',
@@ -148,7 +155,7 @@ export const menusList = [
     restaurantName: 'À la française',
     id: 3,
     cover: laFrançaiseCover,
-    menus: [
+    menu: [
       {
         type: 'entrées',
         order: 1,
@@ -219,7 +226,7 @@ export const menusList = [
     restaurantName: 'Le délice des sens',
     id: 4,
     cover: leDeliceCover,
-    menus: [
+    menu: [
       {
         type: 'entrées',
         order: 1,
