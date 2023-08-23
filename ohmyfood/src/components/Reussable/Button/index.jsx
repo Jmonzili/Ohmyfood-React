@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import colors from '../../../utils/style/colors'
+import colors from '../../../utils/colors'
 
 const StyledBtn = styled.div`
     background: ${colors.button};

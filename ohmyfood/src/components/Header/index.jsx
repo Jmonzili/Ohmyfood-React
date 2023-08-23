@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import colors from '../../utils/style/colors'
+import colors from '../../utils/colors'
 import Arrow from './Arrow'
 
 const HeaderContainer = styled.header`

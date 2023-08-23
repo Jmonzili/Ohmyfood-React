@@ -1,0 +1,32 @@
+@-webkit-keyframes check-rotate {
+    from {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes check-rotate {
+    from {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+  .plat-container:hover .check-box {
+      margin-right: 0;
+  }
+  
+  .plat-container:hover .check-box i {
+    -webkit-animation: check-rotate 0.5s ease-in-out;
+        animation: check-rotate 0.5s ease-in-out;
+    -webkit-transform: rotate(0);
+        transform: rotate(0);
+  }
